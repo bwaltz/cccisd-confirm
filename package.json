@@ -7,14 +7,19 @@
     "repository": "git@github.com:bwaltz/cccisd-confirm.git",
     "license": "MIT",
     "scripts": {
-        "build": "node_modules/package-helper/src/bin/build.js"
+        "build": "bin/build.js"
     },
     "devDependencies": {
-        "package-helper": "git+https://github.com/bwaltz/package-helper.git#master"
+        "babel-cli": "^6.26.0",
+        "babel-preset-env": "^1.7.0",
+        "babel-preset-react": "^6.24.1",
+        "babel-preset-stage-2": "^6.24.1",
+        "rimraf": "^2.6.2",
+        "shelljs": "^0.8.2"
     },
     "dependencies": {
         "bootstrap": "^3.3.5",
-        "jquery": "^2.1.4",
+        "jquery": "^3.3.1",
         "prop-types": "^15.6.0",
         "react": "^15.4.2",
         "react-dom": "^15.0.0"
