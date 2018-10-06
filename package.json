@@ -1,0 +1,22 @@
+{
+    "name": "cccisd-confirm",
+    "version": "1.0.0",
+    "description": "3C Institute react wrapper for bootstrap confirmation dialog",
+    "main": "dist/confirm.js",
+    "author": "Brandon Waltz <bwaltz6@gmail.com>",
+    "repository": "git@github.com:bwaltz/cccisd-confirm.git",
+    "license": "MIT",
+    "scripts": {
+        "build": "node_modules/package-helper/src/bin/build.js"
+    },
+    "devDependencies": {
+        "package-helper": "git+https://github.com/bwaltz/package-helper.git#master"
+    },
+    "dependencies": {
+        "bootstrap": "^3.3.5",
+        "jquery": "^2.1.4",
+        "prop-types": "^15.6.0",
+        "react": "^15.4.2",
+        "react-dom": "^15.0.0"
+    }
+}
