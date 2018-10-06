@@ -18,7 +18,7 @@ export default () => (
                     // Do something after "Yes" is pressed.
                 })
                 .fail(() => {
-                    // Do something after "No" is pressed.ß
+                    // Do something after "No" is pressed.
                 });
         }}
     >
