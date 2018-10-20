@@ -26,3 +26,6 @@ export default () => (
     </button>
 );
 ```
+
+![alt text](https://cl.ly/41ac4b9f7bb4/Screen%20Shot%202018-10-20%20at%201.01.14%20PM.png)
+
